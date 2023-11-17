@@ -1,0 +1,19 @@
+namespace: ValanticSprykerTest\Zed\CategorySitemapConnector
+paths:
+    tests: .
+    data: _data
+    support: _support
+    output: _output
+
+suites:
+    Business:
+        path: Business
+        actor: CategorySitemapConnectorTester
+        modules:
+            enabled:
+               - Asserts
+               - \SprykerTest\Shared\Testify\Helper\Environment
+               - \SprykerTest\Shared\Testify\Helper\ConfigHelper
+               - \SprykerTest\Shared\Testify\Helper\LocatorHelper:
+                   projectNamespaces: ['Pyz', 'ValanticSpryker']
+               - \SprykerTest\Shared\Propel\Helper\TransactionHelper
