@@ -15,6 +15,6 @@ This module is used alongside `valantic-spryker/sitemap` Sitemap module to exten
 
 # Testing
 
-Tests do not work without Spryker environment, since Spryker helper are used. To run tests, execute following command in root path:
+Tests do not work without Spryker environment, since Spryker helpers are used. To run tests, execute following command in root Spryker directory:
 
 `codecept run -c vendor/valantic-spryker/category-sitemap-connector/tests/ValanticSprykerTest/Zed/CategorySitemapConnector`
