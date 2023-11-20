@@ -6,6 +6,7 @@ namespace ValanticSpryker\Zed\CategorySitemapConnector\Business\Model\Creator;
 
 use Spryker\Zed\Store\Business\StoreFacadeInterface;
 use ValanticSpryker\Service\Sitemap\SitemapServiceInterface;
+use ValanticSpryker\Shared\CategorySitemapConnector\CategorySitemapConnectorConstants;
 use ValanticSpryker\Zed\CategorySitemapConnector\CategorySitemapConnectorConfig;
 use ValanticSpryker\Zed\CategorySitemapConnector\Persistence\CategorySitemapConnectorRepositoryInterface;
 
@@ -70,7 +71,7 @@ class CategorySitemapCreator implements CategorySitemapCreatorInterface
                 $urlList,
                 $page,
                 $currentStoreTransfer->getName(),
-                CategorySitemapConnectorConfig::RESOURCE_TYPE,
+                CategorySitemapConnectorConstants::RESOURCE_TYPE,
             );
 
             if ($sitemapTransfer !== null) {

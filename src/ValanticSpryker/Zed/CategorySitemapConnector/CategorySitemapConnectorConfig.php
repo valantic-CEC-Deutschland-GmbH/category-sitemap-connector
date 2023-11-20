@@ -11,11 +11,6 @@ use ValanticSpryker\Shared\Sitemap\SitemapConstants;
 class CategorySitemapConnectorConfig extends AbstractBundleConfig
 {
     /**
-     * @var string
-     */
-    public const RESOURCE_TYPE = 'categories';
-
-    /**
      * @return string
      */
     public function getYvesBaseUrl(): string

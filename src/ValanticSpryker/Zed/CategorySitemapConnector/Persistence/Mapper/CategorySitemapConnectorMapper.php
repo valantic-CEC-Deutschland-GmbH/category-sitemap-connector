@@ -7,6 +7,7 @@ namespace ValanticSpryker\Zed\CategorySitemapConnector\Persistence\Mapper;
 use Generated\Shared\Transfer\SitemapUrlTransfer;
 use Orm\Zed\Url\Persistence\SpyUrl;
 use Propel\Runtime\Collection\ObjectCollection;
+use ValanticSpryker\Shared\CategorySitemapConnector\CategorySitemapConnectorConstants;
 use ValanticSpryker\Zed\CategorySitemapConnector\CategorySitemapConnectorConfig;
 
 class CategorySitemapConnectorMapper implements CategorySitemapConnectorMapperInterface
@@ -54,7 +55,7 @@ class CategorySitemapConnectorMapper implements CategorySitemapConnectorMapperIn
             ->setUrl($this->formatUrl($urlEntity))
             ->setUpdatedAt($urlEntity->getVirtualColumn('updated_at'))
             ->setResourceId($urlEntity->getFkResourcePage())
-            ->setResourceType(CategorySitemapConnectorConfig::RESOURCE_TYPE);
+            ->setResourceType(CategorySitemapConnectorConstants::RESOURCE_TYPE);
     }
 
     /**
