@@ -17,3 +17,8 @@ suites:
                - \SprykerTest\Shared\Testify\Helper\LocatorHelper:
                    projectNamespaces: ['Pyz', 'ValanticSpryker']
                - \SprykerTest\Shared\Propel\Helper\TransactionHelper
+               - \SprykerTest\Zed\Category\Helper\CategoryHelper
+               - \SprykerTest\Zed\Category\Helper\CategoryDataHelper
+               - \SprykerTest\Zed\Category\Helper\CategoryCrudHelper
+               - \SprykerTest\Shared\Testify\Helper\DataCleanupHelper
+               - \SprykerTest\Shared\Url\Helper\UrlDataHelper
