@@ -11,7 +11,7 @@ interface CategorySitemapConnectorMapperInterface
     /**
      * @param \Propel\Runtime\Collection\ObjectCollection<\Orm\Zed\Url\Persistence\SpyUrl> $urlEntities
      *
-     * @return array<\Generated\Shared\Transfer\SitemapUrlTransfer>
+     * @return array<\Generated\Shared\Transfer\SitemapUrlNodeTransfer>
      */
-    public function mapUrlEntitiesToSitemapUrlTransfers(ObjectCollection $urlEntities): array;
+    public function mapUrlEntitiesToSitemapUrlNodeTransfers(ObjectCollection $urlEntities): array;
 }
