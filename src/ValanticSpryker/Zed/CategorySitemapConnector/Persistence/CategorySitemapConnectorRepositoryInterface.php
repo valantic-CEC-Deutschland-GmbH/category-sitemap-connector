@@ -13,7 +13,7 @@ interface CategorySitemapConnectorRepositoryInterface
      * @param int $page
      * @param int $pageLimit
      *
-     * @return array<\Generated\Shared\Transfer\SitemapUrlTransfer>
+     * @return array<\Generated\Shared\Transfer\SitemapUrlNodeTransfer>
      */
     public function findActiveCategories(StoreTransfer $currentStore, int $page, int $pageLimit): array;
 }

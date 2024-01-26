@@ -38,7 +38,7 @@ class CategorySitemapConnectorRepository extends AbstractRepository implements C
 
         return $this->getFactory()
             ->createCategoryPageSitemapMapper()
-            ->mapUrlEntitiesToSitemapUrlTransfers(
+            ->mapUrlEntitiesToSitemapUrlNodeTransfers(
                 $query->find(),
             );
     }
