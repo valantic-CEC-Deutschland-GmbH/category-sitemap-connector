@@ -2,10 +2,10 @@
     "name": "valantic-spryker/category-sitemap-connector",
     "type": "library",
     "description": "Extends Sitemap module with category urls",
-    "license": "MIT",
+    "license": "proprietary",
     "require": {
         "php": ">=7.4",
-        "valantic-spryker/sitemap": "^4.0"
+        "valantic-spryker/sitemap": "^4.0.4"
     },
     "autoload": {
         "psr-4": {
